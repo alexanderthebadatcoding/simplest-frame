@@ -1,13 +1,19 @@
 import poster from "./poster";
-import count from "./count";
+import pick from "./pick";
 import credits from "./credits";
 import stolen from "./stolen";
-import p5 from "p5/lib/p5.min.js";
+import blue from "./blue";
+import red from "./red";
+import green from "./green";
+import purple from "./purple";
 
 export default {
-  count,
+  pick,
   poster,
   credits,
   stolen,
-  p5,
+  blue,
+  green,
+  red,
+  purple,
 };

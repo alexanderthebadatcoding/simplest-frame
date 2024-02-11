@@ -1,10 +1,10 @@
 const html = String.raw;
 export default {
-  name: "poster",
-  image: `/images/p5home.png`,
+  name: "purple",
+  image: `/images/purple.png`,
   buttons: [
     {
-      label: "Pick a Color",
+      label: "⬅️ Back",
       goTo: "pick",
     },
     {

@@ -1,14 +1,14 @@
 export default {
-    name: 'credits',
-    image: `/images/credits.png`,
-    buttons: [
-        { 
-            label: '⬅️ Back',
-            goTo: 'count',
-        },
-        {
-            label: '{😺} View on Github',
-            url: 'https://github.com/depatchedmode/simplest-frame'
-        }
-    ]
+  name: "credits",
+  image: `/images/credits.png`,
+  buttons: [
+    {
+      label: "⬅️ Back",
+      goTo: "pick",
+    },
+    {
+      label: "View on Github",
+      url: "https://github.com/alexanderthebadatcoding/simplest-frame",
+    },
+  ],
 };

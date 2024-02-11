@@ -9,8 +9,7 @@ export default async (frameContent) => {
     <!DOCTYPE html>
     <html>
       <head>
-        <script src="p5.js"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
         <style>
           @font-face {
             font-family: "${fontName}";
@@ -27,7 +26,6 @@ export default async (frameContent) => {
             }
           }
           body {
-            padding: 2rem;
             font-family: "${fontName}";
             background: var(--background);
             color: var(--text);
@@ -55,6 +53,17 @@ export default async (frameContent) => {
             padding: 1rem;
             display: block;
           }
+          html,
+          body {
+            margin: 0;
+            padding: 0;
+          }
+          canvas {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            transition: all 0.2s cubic-bezier(0.17, 0.67, 0.86, 0.57);
+          }
         </style>
 
         <meta property="og:image" content="${frameContent.image}" />
@@ -66,21 +75,10 @@ export default async (frameContent) => {
         <title>Abstract Art</title>
       </head>
       <body>
-        <script src="sketch.js"></script>
-        <script src="sector.js"></script>
-        <h1>hello world</h1>
-        <main>
-          <canvas
-            id="defaultCanvas0"
-            class="p5Canvas"
-            width="1280"
-            height="553"
-            style="width: 1280px; height: 553px;"
-          ></canvas>
-        </main>
-        <figure>
-          <img width="600" src="${frameContent.image}" />
-        </figure>
+        <!-- Container for p5.js canvas -->
+        <script src="https://p5.gilbster.xyz/sketch.js"></script>
+        <script src="https://p5.gilbster.xyz/sector.js"></script>
+        <main></main>
       </body>
     </html>
   `;
