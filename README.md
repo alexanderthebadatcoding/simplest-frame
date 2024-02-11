@@ -1,4 +1,5 @@
-![poster-animated](https://github.com/depatchedmode/simplest-frame/assets/84613835/7dadc2cb-7410-4e8d-b8bb-6c314655e5fc)
+
+<img width="1346" alt="image" src="https://github.com/alexanderthebadatcoding/simplest-frame/assets/127344545/5a6759d8-db55-47f2-98ad-7e3bfd9601bf">
 
 ## A zero-cost, zero-framework, dynamic Farcaster Frame template
 
